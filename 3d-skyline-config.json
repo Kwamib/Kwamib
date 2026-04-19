@@ -1,0 +1,16 @@
+{
+  "type": "custom",
+  "backgroundColor": "#0d1117",
+  "foregroundColor": "#c9d1d9",
+  "strongColor": "#E8713A",
+  "weakColor": "#8b949e",
+  "lines": [
+    {
+      "foregroundColor": "#0e4429",
+      "contributionLevel1Color": "#006d32",
+      "contributionLevel2Color": "#26a641",
+      "contributionLevel3Color": "#39d353",
+      "contributionLevel4Color": "#E8713A"
+    }
+  ]
+}

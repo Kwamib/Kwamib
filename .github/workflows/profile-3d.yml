@@ -1,0 +1,45 @@
+name: Generate 3D contribution skyline
+
+on:
+  schedule:
+    # Runs daily at 00:00 UTC (7pm CST / 8pm CDT)
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+  push:
+    branches: ["main"]
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    name: Generate profile skyline
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Generate skyline SVG
+        uses: yoshi389111/github-profile-3d-contrib@0.7.1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          USERNAME: ${{ github.repository_owner }}
+        with:
+          # Dark mode with custom palette matching your brand
+          # Options: default, season, rainbow, gitblock, gitrock, bear, halloween
+          #          city, btw, solarized-dark, solarized-light
+          SETTING_JSON: ./3d-skyline-config.json
+
+      - name: Commit & push
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          # Only commit if there are changes
+          if [[ -n $(git status -s profile-3d-contrib/) ]]; then
+            git add profile-3d-contrib/
+            git commit -m "chore: refresh contribution skyline"
+            git push
+          else
+            echo "No skyline changes to commit."
+          fi
