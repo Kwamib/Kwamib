@@ -1,8 +1,9 @@
 ### Kwame
 
 Cloud Infrastructure & DevOps Engineer
-AWS · Kubernetes · Terraform 
+AWS · Kubernetes · Terraform
 
+Building quietly. Shipping loudly.
 [kwamib.dev](https://kwamib.dev)
 
 ---
@@ -26,11 +27,7 @@ AWS · Terraform · Kubernetes · ArgoCD · Helm · Jenkins · GitHub Actions ·
 
 ---
 
-#### Contribution skyline
-
-![Contribution skyline](./profile-3d-contrib/profile-season-animate.svg)
-
-<sub>Regenerates daily. Each building is one day; height is commits. Today burns orange.</sub>
+![Contribution terminal](./assets/contrib-terminal.svg)
 
 ---
 
