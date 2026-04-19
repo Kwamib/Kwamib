@@ -1,9 +1,8 @@
 ### Kwame
 
 Cloud Infrastructure & DevOps Engineer
-AWS · Kubernetes · Terraform · Public Trust Cleared
+AWS · Kubernetes · Terraform 
 
-Based in Katy, TX. Building quietly. Shipping loudly.
 [kwamib.dev](https://kwamib.dev)
 
 ---
@@ -29,7 +28,7 @@ AWS · Terraform · Kubernetes · ArgoCD · Helm · Jenkins · GitHub Actions ·
 
 #### Contribution skyline
 
-![Contribution skyline](./profile-3d-contrib/profile-night-rainbow.svg)
+![Contribution skyline](./profile-3d-contrib/profile-season-animate.svg)
 
 <sub>Regenerates daily. Each building is one day; height is commits. Today burns orange.</sub>
 
