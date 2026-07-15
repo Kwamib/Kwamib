@@ -31,7 +31,6 @@
 <text x="690" y="192" fill="#6e7681" font-family="Space Mono, SF Mono, Menlo, Consolas, monospace" font-size="9" text-anchor="start">May</text>
 <text x="750" y="192" fill="#6e7681" font-family="Space Mono, SF Mono, Menlo, Consolas, monospace" font-size="9" text-anchor="start">Jun</text>
 <text x="825" y="192" fill="#6e7681" font-family="Space Mono, SF Mono, Menlo, Consolas, monospace" font-size="9" text-anchor="start">Jul</text>
-<rect x="60" y="196" width="12" height="12" rx="2" fill="#1a1a1a"/>
 <rect x="60" y="211" width="12" height="12" rx="2" fill="#1a1a1a"/>
 <rect x="60" y="226" width="12" height="12" rx="2" fill="#1a1a1a"/>
 <rect x="60" y="241" width="12" height="12" rx="2" fill="#1a1a1a"/>
@@ -396,7 +395,8 @@
 <rect x="825" y="271" width="12" height="12" rx="2" fill="#1a1a1a"/>
 <rect x="825" y="286" width="12" height="12" rx="2" fill="#1a1a1a"/>
 <rect x="840" y="196" width="12" height="12" rx="2" fill="#1a1a1a"/>
-<rect x="840" y="211" width="12" height="12" rx="2" fill="#1a1a1a" stroke="#E8713A" stroke-width="1"/>
+<rect x="840" y="211" width="12" height="12" rx="2" fill="#1a1a1a"/>
+<rect x="840" y="226" width="12" height="12" rx="2" fill="#1a1a1a" stroke="#E8713A" stroke-width="1"/>
 <text x="28" y="323" fill="#6e7681" font-family="Space Mono, SF Mono, Menlo, Consolas, monospace" font-size="10" text-anchor="start">legend ·</text>
 <rect x="84" y="314" width="10" height="10" rx="2" fill="#1a1a1a"/>
 <text x="98" y="323" fill="#6e7681" font-family="Space Mono, SF Mono, Menlo, Consolas, monospace" font-size="10" text-anchor="start">0</text>
